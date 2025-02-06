@@ -1,1 +1,1 @@
-### Avaliação Prática – Analista de testes (QA)
+### Avaliação Prática - Analista de testes (QA)
