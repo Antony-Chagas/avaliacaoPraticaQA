@@ -1,0 +1,1 @@
+### Avaliação Prática – Analista de testes (QA)
