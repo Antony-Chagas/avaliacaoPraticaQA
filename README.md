@@ -10,7 +10,7 @@ Node.js 18.x, 20.x, 22.x e superior. <br>
 
 ## Tecnologias utilizadas 🖥
 Node.js 22x <br>
-Cypress
+Cypress 14x
 
 ## Como rodar o projeto baixado 🎡
 Iniciar o projeto JavaScript
@@ -25,3 +25,5 @@ Abrir o Cypress
 ```
 npx Cypress open
 ```
+
+## Testes realizados 🔬
