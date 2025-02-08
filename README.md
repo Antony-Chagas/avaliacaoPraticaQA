@@ -7,7 +7,7 @@
 * [Como rodar o projeto baixado](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#como-rodar-o-projeto-baixado-)
 * [Testes realizados](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#testes-realizados-)
 * [Testes que devem retornar sucesso](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#testes-que-devem-retornar-sucesso)
-* [Teste que devem retornar erro](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#teste-que-deve-retornar-erro)
+* [Teste que devem retornar erro](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#testes-que-devem-retornar-erro)
 * [BUGs, Falhas e Melhorias](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#bugs-falhas-e-melhorias)
 
 ## Descrição do Projeto 📰
