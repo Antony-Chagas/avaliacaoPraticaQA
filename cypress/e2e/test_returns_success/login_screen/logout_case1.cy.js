@@ -1,10 +1,8 @@
-import  {login} from '../login_screen/login_case1.cy';
+import { login } from '../login_screen/login_case1.cy';
 
 describe('Realizar um logout com sucesso', () => {
-  
-  it('passes', () => {
-    login()
-  })
+
+  login()
 
   //Quando clico no botão sair
   //ENTÃO deve retornar a tema de sair 

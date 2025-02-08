@@ -1,11 +1,9 @@
-import  {login} from '../login_screen/login_case1.cy';
+import { login } from '../login_screen/login_case1.cy';
 
-describe('Cadastrar uma movimentação com sucesso', () => {
+describe('Cadastrar uma movimentação com sucesso e apresentar as movimentações', () => {
 
-  it('passes', () => {
-    login()
-  })
-
+  login()
+  
   //DADO que acesso a página de Movimentação
   //E cadastro uma movimentação
   //E faço um fluxo completo
@@ -28,7 +26,7 @@ describe('Cadastrar uma movimentação com sucesso', () => {
     cy.get('.alert').contains('Movimentação adicionada com sucesso!')
 
     cy.visit('https://seubarriga.wcaquino.me/extrato')
-    
+
   })
 
 })

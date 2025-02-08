@@ -1,10 +1,8 @@
-import  {login} from '../login_screen/login_case1.cy';
+import { login } from '../login_screen/login_case1.cy';
 
 describe('Cadastrar uma nova conta conta', () => {
-  
-  it('passes', () => {
-    login()
-  })
+
+  login()
 
   //DADO que acesso a página de Movimentação
   //E cadastro uma movimentação

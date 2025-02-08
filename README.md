@@ -34,4 +34,17 @@ npx Cypress open
 **Problema:** O Programa falhou, permitiu a criação de um novo cadastro com o campo nome contendo apenas caracteres especiais, e no segundo teste permitiu a criação de um novo cadastro com o campo nome contendo apenas números.
 
 [Registro com o senha fraca]() 
-**Problema:**O Programa falhou, permitiu a criação de um novo cadastro com uma senha fraca, contendo apenas 1 carater, ou seja não possui nenhuma verificação de senha.
+**Problema:** O Programa falhou, permitiu a criação de um novo cadastro com uma senha fraca, contendo apenas 1 caráter, ou seja, não possui nenhuma verificação de senha.
+
+[Campo descrição no fomulário de movimentação]()
+**Problema:** O programa falhou, permitiu o cadastro de uma movimentação com caracteres especiais indevidos no campo descrição, podendo comprometer a segurança da aplicação.
+**Importante** O mesmo se aplica a o campo nome e os outros campo de texto da aplicação.
+**Problema:** O programa falhou, permitiu o cadastro de uma movimentação com o campo Interessado com menos de 3 caracteres. 
+
+[Campo valor no fomulário de movimentação]()
+**Problema:** O programa falhou, permitiu o cadastro de um valor negativo no campo valor.
+**Problema:** O programa falhou, permitiu o cadastro do valor 0 no campo valor. 
+**Problema:** O programa falhou, o mesmo não formata os números colocados pelo usuário para o real, mesmo o usuário colocando o número correto, retorna erro.
+
+[Campo Situação no fomulário de movimentação]()
+**Problema:** O programa falhou, permitiu criar uma conta com status de paga, mas colocando a data que foi paga em um tempo futuro.

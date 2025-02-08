@@ -6,11 +6,9 @@ describe('Cadastrar uma nova conta com um nome já existente', () => {
     login()
   })
 
-  //DADO que acesso a página de Movimentação
-  //E cadastro uma movimentação
-  //E faço um fluxo completo
-  //QUANDO clicar em extrato
-  //ENTÃO deve conter toda a movimentação cadastrada
+  //DADO que acesso a página de adicionar conta
+  //E no campo nome coloco um nome ja existente
+  //QUANDO clico no botão salvar retorar uma mensage de erro
 
   it('passes', () => {
     cy.visit('https://seubarriga.wcaquino.me/addConta')
