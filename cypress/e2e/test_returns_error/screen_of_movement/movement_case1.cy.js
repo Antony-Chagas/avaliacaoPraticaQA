@@ -1,6 +1,6 @@
 import { login } from '../../test_returns_success/login_screen/login_case1.cy';
 
-describe('Teste campo *Data da Movimentação*, Deve aceitar apenas datas válidas e no formato formato DD/MM/AAAA', () => {
+describe('Teste campo *Data da Movimentação*, Deve aceitar apenas datas válidas e no formato formato DD/MM/AAAA e a Data da Movimentação deve ser menor ou igual à data atual', () => {
 
     login()
 

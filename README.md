@@ -28,7 +28,7 @@ npx Cypress open
 
 ## Testes realizados 🔬
 
-### Testes que devem retornar sucesso.
+* ### Testes que devem retornar sucesso.
 
 **Testes na tela de login:** 
 * Caso 1: [Realizar um login com sucesso](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_success/login_screen/login_case1.cy.js)
@@ -46,7 +46,7 @@ npx Cypress open
 **Testes na tela de cadastro de conta/despesa:** 
 * Caso 1: [Cadastrar uma nova conta/despesa](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_success/expense_creation_screen/create_expense_case1.cy.js)
 
-### Teste que deve retornar erro.
+* ### Teste que deve retornar erro.
 **Testes na tela de login:** 
 * Caso 1: [Login com os dados inválidos](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/login_screen/login_case1.cy.js)
 * Caso 2: [Login com os dados vazio](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/login_screen/login_case2.cy.js)
@@ -56,11 +56,11 @@ npx Cypress open
 * Caso 1: [Novo cadastro com dados existentes](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/registration_screen/register_case1.cy.js)
 * Caso 2: [Novo cadastro com campo vazio](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/registration_screen/register_case2.cy.js)
 * Caso 3: [Testes com campo nome inválidos](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/registration_screen/register_case3.cy.js)
-* Caso 4: [Testes com a senha muito frac](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/registration_screen/register_case4.cy.js)
+* Caso 4: [Testes com a senha muito fraca](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/registration_screen/register_case4.cy.js)
 <br>
 
 **Testes na tela de movimentação:** 
-* Caso 1: [Teste campo *Data da Movimentação*, Deve aceitar apenas datas válidas e no formato formato DD/MM/AAAA](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case1.cy.js)
+* Caso 1: [Teste campo *Data da Movimentação*, Deve aceitar apenas datas válidas e no formato formato DD/MM/AAAA e a Data da Movimentação deve ser menor ou igual à data atual](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case1.cy.js)
 * Caso 2: [Teste campo *Data do Pagamento*, Deve aceitar apenas datas válidas e no formato formato DD/MM/AAAA](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case2.cy.js)
 * Caso 3: [Teste campo *Campo Descrição*, Deve impedir a inserção de caracteres especiais indevidos (<>/*{} etc.](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case3.cy.js)
 * Caso 4: [Teste campo *Campo Interessado*, Deve impedir a inserção de caracteres especiais indevidos (<>/*{} etc.) e Deve aceitar nomes com pelo menos 3 caracteres.](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case4.cy.js)
@@ -72,21 +72,21 @@ npx Cypress open
 * Caso 1: [Cadastrar uma nova conta com um nome já existente](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/expense_creation_screen/create_expense_case1.cy.js)
 ## BUGs, Falhas e Melhorias 
 
-[Registro com o nome invalido](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/registration_screen/register_case3.cy.js)
+[Registro com o nome invalido](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/registration_screen/register_case3.cy.js) <br>
 **Problema:** O Programa falhou, permitiu a criação de um novo cadastro com o campo **nome** contendo apenas caracteres especiais, e no segundo teste permitiu a criação de um novo cadastro com o campo nome contendo menos de 3 caracteres.
 
-[Registro com o senha fraca](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/registration_screen/register_case4.cy.js) 
+[Registro com o senha fraca](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/registration_screen/register_case4.cy.js) <br> 
 **Problema:** O Programa falhou, permitiu a criação de um novo cadastro com uma **senha** fraca, contendo apenas 1 caráter, ou seja, não possui nenhuma verificação de senha.
 
-[Campo descrição no fomulário de movimentação](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case3.cy.js)
+[Campo descrição no fomulário de movimentação](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case3.cy.js) <br>
 **Problema:** O programa falhou, permitiu o cadastro de uma movimentação com caracteres especiais indevidos no campo **descrição**, podendo comprometer a segurança da aplicação.<br>
 **Importante** O mesmo se aplica a o campo **nome** e os outros campo de **texto** da aplicação.<br>
 **Problema:** O programa falhou, permitiu o cadastro de uma movimentação com o campo **Interessado** com menos de 3 caracteres. <br>
 
-[Campo valor no fomulário de movimentação](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case5.cy.js)
+[Campo valor no fomulário de movimentação](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case5.cy.js) <br>
 **Problema:** O programa falhou, permitiu o cadastro de um **valor negativo** no campo valor.<br>
 **Problema:** O programa falhou, permitiu o cadastro do **valor 0** no campo valor. <br>
 **Problema:** O programa falhou, o mesmo não formata os números colocados pelo usuário para o **formato real(R$)**, mesmo o usuário colocando o número correto, retorna erro.<br>
 
-[Campo Situação no fomulário de movimentação](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case6.cy.js)
+[Campo Situação no fomulário de movimentação](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case6.cy.js) <br>
 **Problema:** O programa falhou, permitiu criar uma conta com **status de paga**, mas colocando a data que foi paga em um **tempo futuro**.
