@@ -1,6 +1,6 @@
 import { login } from '../../test_returns_success/login_screen/login_case1.cy';
 
-describe('Teste campo *Campo Interessado*, Deve aceitar apenas valores numéricos positivos e Deve formatar corretamente no padrão monetário (R$ 0.000,00)', () => {
+describe('Teste campo *Campo valor*, Deve aceitar apenas valores numéricos positivos e Deve formatar corretamente no padrão monetário (R$ 0.000,00)', () => {
 
   login()
 

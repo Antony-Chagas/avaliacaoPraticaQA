@@ -1,6 +1,6 @@
 import { login } from '../login_screen/login_case1.cy';
 
-describe('Cadastrar uma nova conta conta', () => {
+describe('Cadastrar uma nova conta/despesa', () => {
 
   login()
 
