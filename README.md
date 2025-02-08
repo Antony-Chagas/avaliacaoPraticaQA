@@ -1,7 +1,7 @@
 # Avaliação Prática - Analista de testes (QA)
 
-### Índice 
-* [Descrição do Projeto](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#descri%C3%A7%C3%A3o-do-projeto-) <>
+## Índice 
+* [Descrição do Projeto](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#descri%C3%A7%C3%A3o-do-projeto-)
 * [Requisitos](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#requisitos-)
 * [Tecnologias utilizadas](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#tecnologias-utilizadas-)
 * [Como rodar o projeto baixado](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#como-rodar-o-projeto-baixado-)
