@@ -1,14 +1,14 @@
 # Avaliação Prática - Analista de testes (QA)
 
 ### Índice 
-[Descrição do Projeto](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#descri%C3%A7%C3%A3o-do-projeto-)
-[Requisitos](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#requisitos-)
-[Tecnologias utilizadas](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#tecnologias-utilizadas-)
-[Como rodar o projeto baixado](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#como-rodar-o-projeto-baixado-)
-[Testes realizados](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#testes-realizados-)
-[Testes que devem retornar sucesso](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#testes-que-devem-retornar-sucesso)
-[Teste que devem retornar erro](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#teste-que-deve-retornar-erro)
-[BUGs, Falhas e Melhorias](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#bugs-falhas-e-melhorias)
+* [Descrição do Projeto](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#descri%C3%A7%C3%A3o-do-projeto-) <>
+* [Requisitos](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#requisitos-)
+* [Tecnologias utilizadas](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#tecnologias-utilizadas-)
+* [Como rodar o projeto baixado](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#como-rodar-o-projeto-baixado-)
+* [Testes realizados](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#testes-realizados-)
+* [Testes que devem retornar sucesso](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#testes-que-devem-retornar-sucesso)
+* [Teste que devem retornar erro](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#teste-que-deve-retornar-erro)
+* [BUGs, Falhas e Melhorias](https://github.com/Antony-Chagas/avaliacaoPraticaQA/tree/main?tab=readme-ov-file#bugs-falhas-e-melhorias)
 
 ## Descrição do Projeto 📰
 Teste automatizado E2E para testar as funcionalidades do site https://seubarriga.wcaquino.me/, para entregar um ótimo site, com uma perfeita experiência para os clientes.
