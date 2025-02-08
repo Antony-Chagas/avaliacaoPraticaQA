@@ -30,30 +30,30 @@ npx Cypress open
 
 ### Teste que devem retornar sucesso 
 
-**Teste na tela de login**
+**Teste na tela de login** <br>
 * Caso 1
 * Caso 2
-**Teste na tela de cadastro**
+**Teste na tela de cadastro** <br>
 * Caso 1
 * Caso 2
-**Teste na tela de movimentação**
+**Teste na tela de movimentação** <br>
 * Caso 1
 * Caso 2
-**Teste na tela de cadastro de conta/despesa**
+**Teste na tela de cadastro de conta/despesa** <br>
 * Caso 1
 * Caso 2
 
 ### Teste que deve retornar erro
-**Teste na tela de login**
+**Teste na tela de login** <br>
 * Caso 1
 * Caso 2
-**Teste na tela de cadastro**
+**Teste na tela de cadastro** <br>
 * Caso 1
 * Caso 2
-**Teste na tela de movimentação**
+**Teste na tela de movimentação** <br>
 * Caso 1
 * Caso 2
-**Teste na tela de cadastro de conta/despesa**
+**Teste na tela de cadastro de conta/despesa** <br>
 * Caso 1
 * Caso 2
 
