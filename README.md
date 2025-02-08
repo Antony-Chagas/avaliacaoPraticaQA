@@ -40,7 +40,7 @@ npx Cypress open
 <br>
 
 **Testes na tela de movimentação:** 
-* Caso 1: [Cadastrar uma movimentação com sucesso e apresentar as movimentações](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_success/registration_screen/register_case1.cy.js)
+* Caso 1: [Cadastrar uma movimentação com sucesso e apresentar as movimentações](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_success/screen_of_movement/extract_case1.cy.js)
 <br>
 
 **Testes na tela de cadastro de conta/despesa:** 
