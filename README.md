@@ -28,7 +28,7 @@ npx Cypress open
 
 ## Testes realizados 🔬
 
-* ### Testes que devem retornar sucesso.
+## Testes que devem retornar sucesso.
 
 **Testes na tela de login:** 
 * Caso 1: [Realizar um login com sucesso](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_success/login_screen/login_case1.cy.js)
@@ -46,7 +46,7 @@ npx Cypress open
 **Testes na tela de cadastro de conta/despesa:** 
 * Caso 1: [Cadastrar uma nova conta/despesa](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_success/expense_creation_screen/create_expense_case1.cy.js)
 
-* ### Teste que deve retornar erro.
+## Teste que deve retornar erro.
 **Testes na tela de login:** 
 * Caso 1: [Login com os dados inválidos](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/login_screen/login_case1.cy.js)
 * Caso 2: [Login com os dados vazio](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/login_screen/login_case2.cy.js)
