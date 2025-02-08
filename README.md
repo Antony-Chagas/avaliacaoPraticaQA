@@ -4,13 +4,13 @@
 Teste automatizado E2E para testar as funcionalidades do site https://seubarriga.wcaquino.me/, para entregar um ótimo site, com uma perfeita experiência 
 
 ## Requisitos 🪄
-Windows 10 e superior (x64). <br>
-Editor de código (VSCode utilizado no desenvolvimento). <br>
+* Windows 10 e superior (x64). <br>
+* Editor de código (VSCode utilizado no desenvolvimento). <br>
 Node.js 18.x, 20.x, 22.x e superior. <br>
 
 ## Tecnologias utilizadas 🖥
-Node.js 22x <br>
-Cypress 14x
+* Node.js 22x <br>
+* Cypress 14x
 
 ## Como rodar o projeto baixado 🎡
 Iniciar o projeto JavaScript
@@ -27,6 +27,35 @@ npx Cypress open
 ```
 
 ## Testes realizados 🔬
+
+### Teste que devem retornar sucesso 
+
+**Teste na tela de login**
+* Caso 1
+* Caso 2
+**Teste na tela de cadastro**
+* Caso 1
+* Caso 2
+**Teste na tela de movimentação**
+* Caso 1
+* Caso 2
+**Teste na tela de cadastro de conta/despesa**
+* Caso 1
+* Caso 2
+
+### Teste que deve retornar erro
+**Teste na tela de login**
+* Caso 1
+* Caso 2
+**Teste na tela de cadastro**
+* Caso 1
+* Caso 2
+**Teste na tela de movimentação**
+* Caso 1
+* Caso 2
+**Teste na tela de cadastro de conta/despesa**
+* Caso 1
+* Caso 2
 
 ## BUGs, Falhas e Melhorias 
 
