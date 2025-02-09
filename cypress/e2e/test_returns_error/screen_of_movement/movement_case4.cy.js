@@ -21,7 +21,7 @@ describe('Teste campo *Campo Interessado*', () => {
   //Deve retornar uma mensagem de erro
   it('Deve aceitar nomes com pelo menos 3 caracteres', () => {
 
-    movementForm("Despesa", "07/02/2025", "07/02/2025", "Conta de água", "<>/*{}", 60.00, "Água")
+    movementForm("Despesa", "07/02/2025", "07/02/2025", "Conta de água", "A", 60.00, "Água")
 
     cy.get('.alert').contains('Movimentação adicionada com sucesso!')
     // O programa falhou, pedmitiu o cadadastro de uma movimentação com o campo Interessado com menos de 3 caracteres
