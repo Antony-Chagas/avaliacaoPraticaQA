@@ -108,16 +108,16 @@ npx Cypress open
 
 [Registro com o nome invalido](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/registration_screen/register_case3.cy.js) 
 🔳[imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_6.png)
-🔳[imagem 2 do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_6.1.png)
+🔳[imagem 2 do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_6.1.png) <br>
 **Problema:** O Programa falhou, permitiu a criação de um novo cadastro com o campo **nome** contendo apenas caracteres especiais, e no segundo teste permitiu a criação de um novo cadastro com o campo nome contendo menos de 3 caracteres. 
 
 [Registro com o senha fraca](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/registration_screen/register_case4.cy.js) 
-🔳[imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_7.png)
+🔳[imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_7.png) <br>
 **Problema:** O Programa falhou, permitiu a criação de um novo cadastro com uma **senha** fraca, contendo apenas 1 caráter, ou seja, não possui nenhuma verificação de senha.
 
 [Campo descrição no fomulário de movimentação](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case3.cy.js) 
 🔳[imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_11.png)
-🔳[imagem 2 do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_11.1.png)
+🔳[imagem 2 do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_11.1.png) <br>
 **Problema:** O programa falhou, permitiu o cadastro de uma movimentação com caracteres especiais indevidos no campo **descrição**, podendo comprometer a segurança da aplicação.<br>
 **Importante:** O mesmo se aplica a o campo **nome** e os outros campo de **texto** da aplicação.<br>
 **Problema:** O programa falhou, permitiu o cadastro de uma movimentação com o campo **Interessado** com menos de 3 caracteres. <br>
@@ -125,11 +125,11 @@ npx Cypress open
 [Campo valor no fomulário de movimentação](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case5.cy.js) 
 🔳[imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_12.png) 
 🔳[imagem 2 do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_12.1.png) 
-🔳[imagem 3 do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_12.2.png)
+🔳[imagem 3 do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_12.2.png) <br>
 **Problema:** O programa falhou, permitiu o cadastro de um **valor negativo** no campo valor.<br>
 **Problema:** O programa falhou, permitiu o cadastro do **valor 0** no campo valor. <br>
 **Problema:** O programa falhou, o mesmo não formata os números colocados pelo usuário para o **formato real(R$)**, mesmo o usuário colocando o número correto, retorna erro.<br>
 
 [Campo Situação no fomulário de movimentação](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case6.cy.js) 
-🔳[imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_18.png)
+🔳[imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_18.png) <br>
 **Problema:** O programa falhou, permitiu criar uma conta com **status de paga**, mas colocando a data que foi paga em um **tempo futuro**.
