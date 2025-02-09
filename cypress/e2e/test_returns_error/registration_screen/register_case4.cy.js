@@ -9,7 +9,7 @@ describe('Testes com a senha muito fraca', () => {
     //ENTÃO deve ser exibida a mensagem de erro
     it('Testes com a senha com um caracterer', () => {
 
-        registerForm('Antony', 'antony22@gmail.com', '1')
+        registerForm('Antony', 'antony2255@gmail.com', '1')
 
         cy.get('.alert').contains('Usuário inserido com sucesso')
         //O Programa falhou, permitiu a criação de um novo cadastro com uma senha fraca, contendo atepnas 1 carater.

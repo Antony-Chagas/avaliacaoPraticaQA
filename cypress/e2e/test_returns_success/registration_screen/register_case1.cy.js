@@ -8,7 +8,7 @@ describe('Cadastrar um novo usuário com sucesso', () => {
   //ENTÃO deve ser exibida a mensagem de sucesso
   it('Cadastrar um novo usuário com sucesso', () => {
 
-    registerForm('Antony', 'antony2@gmail.com', '1234')
+    registerForm('Antony', 'Teste123@gmail.com', '1234')
 
     cy.get('.alert').contains('Usuário inserido com sucesso')
   })

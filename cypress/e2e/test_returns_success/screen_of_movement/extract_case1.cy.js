@@ -1,4 +1,4 @@
-import { login } from '../login_screen/login_case1.cy';
+import { login } from '../../testing_functions/function_login.cy';
 import movementForm from '../../testing_functions/function_moviment.cy'
 
 describe('Cadastrar uma movimentação com sucesso e apresentar as movimentações', () => {

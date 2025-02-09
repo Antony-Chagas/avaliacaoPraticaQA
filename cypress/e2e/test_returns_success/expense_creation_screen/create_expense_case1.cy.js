@@ -1,4 +1,4 @@
-import { login } from '../login_screen/login_case1.cy';
+import { login } from '../../testing_functions/function_login.cy';
 
 describe('Cadastrar uma nova conta/despesa', () => {
 
@@ -11,7 +11,7 @@ describe('Cadastrar uma nova conta/despesa', () => {
   //ENTÃO deve conter toda a movimentação cadastrada
   it('Cadastrar uma nova conta/despesa', () => {
     cy.visit('https://seubarriga.wcaquino.me/addConta')
-    cy.get('#nome').type('Água')
+    cy.get('#nome').type('Luz')
     cy.get('.btn').click()
     cy.get('.alert').contains('Conta adicionada com sucesso!')
   })

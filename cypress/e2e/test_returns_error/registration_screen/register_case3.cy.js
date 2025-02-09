@@ -9,7 +9,7 @@ describe('Testes com campo nome inválidos', () => {
     //ENTÃO deve ser exibida a mensagem de erro
     it('Testes com o nome com caracteres proibidos', () => {
 
-        registerForm('##################', 'antony1@gmail.com', '1234')
+        registerForm('##################', 'antony55555@gmail.com', '1234')
 
         cy.get('.alert').contains('Usuário inserido com sucesso')
         //O Programa falhou, permitiu a criação de um novo cadastro com o campo nome contendo apenas caracteres especiais.
@@ -22,7 +22,7 @@ describe('Testes com campo nome inválidos', () => {
     //ENTÃO deve ser exibida a mensagem de erro
     it('Testes com o nome com apenas números', () => {
 
-        registerForm('3333333333333', 'antony2@gmail.com', '1234')
+        registerForm('3333333333333', 'antony255555@gmail.com', '1234')
 
         cy.get('.alert').contains('Usuário inserido com sucesso')
         //O Programa falhou, permitiu a criação de um novo cadastro com o campo nome contendo apenas números.
