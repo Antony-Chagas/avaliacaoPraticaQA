@@ -1,45 +1,28 @@
-import { login } from '../../test_returns_success/login_screen/login_case1.cy';
+import { login } from '../../testing_functions/function_login.cy';
+import movementForm from '../../testing_functions/function_moviment.cy'
 
-describe('Teste campo *Data da Movimentação*, Deve aceitar apenas datas válidas e no formato formato DD/MM/AAAA e a Data da Movimentação deve ser menor ou igual à data atual', () => {
+describe('Teste campo *Data da Movimentação*', () => {
 
     login()
 
     //DADO que acesso a página de Movimentação
     //E digito letras no campo Data da Movimentação
     //Deve retornar uma mensagem de erro
-    it('passes', () => {
-        cy.visit('https://seubarriga.wcaquino.me/movimentacao')
+    it('Deve aceitar apenas datas válidas e no formato formato DD/MM/AAAA', () => {
 
-        cy.get('#tipo').select('Despesa')
-        cy.get('#data_transacao').type('aa/aa/aaaa')
-        cy.get('#data_pagamento').type('07/02/2025')
-        cy.get('#descricao').type('Conta de água')
-        cy.get('#interessado').type('Proprietário')
-        cy.get('#valor').type('60.00')
-        cy.get('#conta').select('Água')
-        cy.get('[for="status_pago"]').click()
+        movementForm("Despesa", "aa/aa/aaaa", "07/02/2025", "Conta de água", "Proprietário", 60.00, "Água")
 
-        cy.get('.btn').click()
         cy.get('.alert').contains('Data da Movimentação inválida (DD/MM/YYYY)')
+        cy.get('.alert').contains('Data da Movimentação deve ser menor ou igual à data atual')
     })
 
     //DADO que acesso a página de Movimentação
     //E digito uma data futura no campo Data da Movimentação
     //Deve retornar uma mensagem de erro
-    it('passes', () => {
-        cy.visit('https://seubarriga.wcaquino.me/movimentacao')
+    it('Data da Movimentação deve ser menor ou igual à data atual', () => {
 
-        cy.get('#tipo').select('Despesa')
-        cy.get('#data_transacao').type('15/12/2030')
-        cy.get('#data_pagamento').type('07/02/2025')
-        cy.get('#descricao').type('Conta de água')
-        cy.get('#interessado').type('Proprietário')
-        cy.get('#valor').type('60.00')
-        cy.get('#conta').select('Água')
-        cy.get('[for="status_pago"]').click()
+        movementForm("Despesa", "15/12/2030", "07/02/2025", "Conta de água", "Proprietário", 60.00, "Água")
 
-        cy.get('.btn').click()
         cy.get('.alert').contains('Data da Movimentação deve ser menor ou igual à data atual')
     })
-
 })

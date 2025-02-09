@@ -1,4 +1,4 @@
-import { login } from '../login_screen/login_case1.cy';
+import { login } from '../../testing_functions/function_login.cy';
 
 describe('Realizar um logout com sucesso', () => {
 
@@ -6,8 +6,7 @@ describe('Realizar um logout com sucesso', () => {
 
   //Quando clico no botão sair
   //ENTÃO deve retornar a tema de sair 
-  it('passes', () => {
+  it('Realizar um logout com sucesso', () => {
     cy.get(':nth-child(5) > a').click()
   })
-
 })

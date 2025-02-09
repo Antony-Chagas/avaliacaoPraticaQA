@@ -9,13 +9,10 @@ describe('Cadastrar uma nova conta/despesa', () => {
   //E faço um fluxo completo
   //QUANDO clicar em extrato
   //ENTÃO deve conter toda a movimentação cadastrada
-
-  it('passes', () => {
+  it('Cadastrar uma nova conta/despesa', () => {
     cy.visit('https://seubarriga.wcaquino.me/addConta')
     cy.get('#nome').type('Água')
-
     cy.get('.btn').click()
-
     cy.get('.alert').contains('Conta adicionada com sucesso!')
   })
 })

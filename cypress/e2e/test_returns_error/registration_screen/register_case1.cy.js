@@ -1,3 +1,5 @@
+import registerForm from '../../testing_functions/function_register.cy'
+
 describe('Novo cadastro com dados existentes ', () => {
 
   //DADO que acesso a página de Novo Usuário
@@ -5,13 +7,9 @@ describe('Novo cadastro com dados existentes ', () => {
   //E digito um email já existente
   //QUANDO clico no botão de Cadastrar
   //ENTÃO deve ser exibida a mensagem de erro
+  it('Novo cadastro com o email já existente', () => {
 
-  it('passes', () => {
-    cy.visit('https://seubarriga.wcaquino.me/cadastro')
-    cy.get('#nome').type('Antony')
-    cy.get('#email').type('antony@gmail.com')
-    cy.get('#senha').type('1234')
-    cy.get('.btn').click()
+    registerForm('Antony', 'antony@gmail.com', '1234')
 
     cy.get('.alert').contains('Endereço de email já utilizado')
   })

@@ -90,7 +90,7 @@ npx Cypress open
 
 [Campo descrição no fomulário de movimentação](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case3.cy.js) <br>
 **Problema:** O programa falhou, permitiu o cadastro de uma movimentação com caracteres especiais indevidos no campo **descrição**, podendo comprometer a segurança da aplicação.<br>
-**Importante** O mesmo se aplica a o campo **nome** e os outros campo de **texto** da aplicação.<br>
+**Importante:** O mesmo se aplica a o campo **nome** e os outros campo de **texto** da aplicação.<br>
 **Problema:** O programa falhou, permitiu o cadastro de uma movimentação com o campo **Interessado** com menos de 3 caracteres. <br>
 
 [Campo valor no fomulário de movimentação](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case5.cy.js) <br>

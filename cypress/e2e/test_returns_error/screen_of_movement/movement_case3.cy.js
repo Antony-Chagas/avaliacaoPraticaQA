@@ -1,25 +1,18 @@
-import { login } from '../../test_returns_success/login_screen/login_case1.cy';
+import { login } from '../../testing_functions/function_login.cy';
+import movementForm from '../../testing_functions/function_moviment.cy'
 
-describe('Teste campo *Campo Descrição*, Deve impedir a inserção de caracteres especiais indevidos (<>/*{} etc.)', () => {
+describe('Teste campo *Campo Descrição*', () => {
 
   login()
 
   //DADO que acesso a página de Movimentação
   //E digito caracteres especiais indevidos no Campo Descrição 
   //Deve retornar uma mensagem de erro
-  it('passes', () => {
-    cy.visit('https://seubarriga.wcaquino.me/movimentacao')
+  it('Deve impedir a inserção de caracteres especiais indevidos (<>/*{} etc.)', () => {
 
-    cy.get('#tipo').select('Despesa')
-    cy.get('#data_transacao').type('07/02/2025')
-    cy.get('#data_pagamento').type('07/02/2025')
-    cy.get('#descricao').type('<>/*{}')
-    cy.get('#interessado').type('Proprietário')
-    cy.get('#valor').type('60.00')
-    cy.get('#conta').select('Água')
-    cy.get('[for="status_pago"]').click()
+    movementForm("Despesa", "07/02/2025", "07/02/2025", "<>/*{}", "Proprietário", 60.00, "Água")
 
-    cy.get('.btn').click()
+    cy.get('.alert').contains('Movimentação adicionada com sucesso!')
     // O programa falhou, pedmitiu o cadadastro de uma movimentação com caracteres especiais indevidos no campo descrição, podendo comprometer a segurança da aplicação.
   })
 })
