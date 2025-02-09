@@ -75,7 +75,7 @@ npx Cypress open
 * Caso 2: [Novo cadastro com campo vazio](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/registration_screen/register_case2.cy.js) <br>
 [imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_5.png)
 * Caso 3: [Testes com campo nome inválidos](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/registration_screen/register_case3.cy.js) <br>
-[imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_6.png)
+[imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_6.png) <br>
 [imagem 2 do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_6.1.png)
 * Caso 4: [Testes com a senha muito fraca](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/registration_screen/register_case4.cy.js) <br>
 [imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_7.png)
@@ -83,19 +83,19 @@ npx Cypress open
 
 **Testes na tela de movimentação:** 
 * Caso 1: [Teste campo *Data da Movimentação*, Deve aceitar apenas datas válidas e no formato formato DD/MM/AAAA e a Data da Movimentação deve ser menor ou igual à data atual](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case1.cy.js) <br>
-[imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_8.png)
-[imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_8.1.png)
+[imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_8.png) <br>
+[imagem 2 do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_8.1.png)
 * Caso 2: [Teste campo *Data do Pagamento*, Deve aceitar apenas datas válidas e no formato formato DD/MM/AAAA](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case2.cy.js) <br>
 [imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_9.png)
 * Caso 3: [Teste campo *Campo Descrição*, Deve impedir a inserção de caracteres especiais indevidos (<>/*{} etc.](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case3.cy.js) <br>
 [imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_10.png)
 * Caso 4: [Teste campo *Campo Interessado*, Deve impedir a inserção de caracteres especiais indevidos (<>/*{} etc.) e Deve aceitar nomes com pelo menos 3 caracteres.](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case4.cy.js) <br>
-[imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_11.png)
-[imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_11.1.png)
+[imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_11.png) <br>
+[imagem 2 do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_11.1.png)
 * Caso 5: [Teste campo *Campo valor*, Deve aceitar apenas valores numéricos positivos e Deve formatar corretamente no padrão monetário (R$ 0.000,00)](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case5.cy.js) <br>
-[imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_12.png)
-[imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_12.1.png)
-[imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_12.2.png)
+[imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_12.png) <br>
+[imagem 2 do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_12.1.png) <br>
+[imagem 3 do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_12.2.png)
 * Caso 6: [Teste campo *Situação*, Para conta com situação paga, Deve impedir a criação com uma data do pagamento futuro](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/test_returns_error/screen_of_movement/movement_case6.cy.js) <br>
 [imagem do teste](https://github.com/Antony-Chagas/avaliacaoPraticaQA/blob/main/cypress/e2e/img/Screenshot_18.png)
 <br>
