@@ -5,9 +5,6 @@ describe('Teste campo *Data do Pagamento*', () => {
 
   login()
 
-  //DADO que acesso a página de Movimentação
-  //E digito letras no campo Data da Movimentação
-  //Deve retornar uma mensagem de erro
   it('Deve aceitar apenas datas válidas e no formato formato DD/MM/AAAA', () => {
 
     movementForm("Despesa", "07/02/2025", "aa/aa/aaaa", "Conta de água", "Proprietário", 60.00, "Água")

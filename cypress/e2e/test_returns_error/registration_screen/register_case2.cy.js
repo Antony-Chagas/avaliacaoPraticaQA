@@ -1,9 +1,5 @@
 describe('Novo cadastro com campo vazio', () => {
 
-  //DADO que acesso a página de Novo Usuário
-  //E deixe os campos senha, email e nome vazio
-  //QUANDO clico no botão de Cadastrar
-  //ENTÃO deve ser exibida a mensagem de erro
   it('Novo cadastro com todos os campos vazio', () => {
     cy.visit('https://seubarriga.wcaquino.me/cadastro')
     cy.get('.btn').click()
